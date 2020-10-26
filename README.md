@@ -1,20 +1,6 @@
-# testBuildSpec
-
-## Build Setup
-
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+### steps for env variables declaration in 
+ - define all env variables in your .env file 
+ - redeclare each parameter in the publicRuntimeConfig section in your nuxt.config.js file 
+ - use the env varaibles from the @config parameter in your app 
+ - refer to: https://nuxtjs.org/blog/moving-from-nuxtjs-dotenv-to-runtime-config/
+- on the cloud: http://code-build-test-workflow.s3-website.eu-west-2.amazonaws.com/ 

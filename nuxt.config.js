@@ -15,6 +15,7 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
+  // declare the env variables under the public runtime config section for use
   publicRuntimeConfig: {
     ADMIN_END_ROUTE: process.env.ADMIN_END_ROUTE,
   },
