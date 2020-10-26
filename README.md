@@ -1,4 +1,4 @@
-### steps for env variables declaration in 
+### steps for env variables setup
  - define all env variables in your .env file 
  - redeclare each parameter in the publicRuntimeConfig section in your nuxt.config.js file 
  - use the env varaible from the $config parameter in your app 
